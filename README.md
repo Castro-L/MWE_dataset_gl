@@ -8,6 +8,6 @@ MWEs are classified as compositional, partial, and Potentially Idiomatic Express
 
 # Access
 
-To gain access to the dataset, please send an e-mail to Laura Castro (laura.sanchez@usc.gal) or Marcos Garcia (marcos.garcia.gonzalez@usc.gal).
+To gain access to the dataset, please send an e-mail to Laura Castro (laura.castro@usc.gal) or Marcos Garcia (marcos.garcia.gonzalez@usc.gal).
 
 Centro Singular de Investigación en Tecnoloxías Intelixentes, Universidade de Santiago de Compostela (Galicia, Spain).

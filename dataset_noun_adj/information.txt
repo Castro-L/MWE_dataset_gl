@@ -1,0 +1,39 @@
+The dataset can be found in dataset_noun_adj.ods.
+
+
+The sheet "mwes_and_data" contains the following:
+
+mwe_id: unique identification tag for each Multiword Expression
+mwe: lemmatized Multiword Expression
+sense_id: unique identification tag for each sense
+freq_compound_norm: total number of occurences of the compound with respect to the source of extraction (normalized by millions)
+freq_head_norm: total number of occurences of the head with respect to the source of extraction (normalized by millions)
+freq_dependent_norm: total number of occurences of the dependent with respect to the source of extraction (normalized by millions)
+ambig_head_overall: total number of synsets (senses) available for the head in Galnet, regardless of its grammatical category
+ambig_dependent_overall: total number of synsets (senses) available for the dependent in Galnet, regardless of its grammatical category
+ambig_head_categ: number of synsets available for the head in Galnet (for the noun category only)
+ambig_dependent_categ: number of synsets available for the head in Galnet (for the adjective category only)
+product_head_norm: number of unique combinations the head makes up in the source of extraction (normalized by millions)
+product_dependent_norm: number of unique combinations the head makes up in the source of extraction (normalized by millions)
+ann_compound_m: mean compositionality score for the compound (where 0 = idiomatic and 5 = compositional)
+ann_head_m: mean compositionality score for the head (where 0 = idiomatic and 5 = compositional)
+ann_dependent_m: mean compositionality score for the dependent (where 0 = idiomatic and 5 = compositional)
+
+
+
+The sheet "corpora_extracted_sentences" contains the following:
+
+mwe_id: unique identification tag for each Multiword Expression
+mwe: lemmatized Multiword Expression
+sense_id: unique identification tag for each sense
+extracted_sent_n: sentence extracted from corpora that contextualizes the expression
+head_type_es: head's type within that sentence
+head_token_es: head's token within that sentence
+dependent_type_esn: dependent's type within that sentence
+dependent_token_esn: dependent's token within that sentence
+head_index_n: index position of the head (starts at 0)
+head_start_char_index_n: index position of the starting character of the head
+head_end_char_index_n: index position of the final character of the head
+dependent_index_n: index position of the dependent
+dependent_start_char_index_n: index position of the starting character of the dependent
+dependent_end_char_index_n: index position of the final character of the dependent
